@@ -392,7 +392,48 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/*6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/*7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/TX3{slash}14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/TX2{slash}16"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/16"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/17"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/18"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keyboard_UNiT/19"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -459,11 +500,11 @@
     ],
     [
       "1b167d0b-8840-4de9-be2c-713538496dc4",
-      "Keyboard_Unit"
+      "Keyboard_UNiT"
     ],
     [
       "a890f6b0-b9f1-46a6-94f7-97d939b60241",
-      "Relay_UNiT Sheet"
+      "Relay_UNiT"
     ]
   ],
   "text_variables": {}
