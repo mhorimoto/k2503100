@@ -364,7 +364,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino_Mega.kicad_pro",
+    "filename": "k2503100.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -444,7 +444,9 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
@@ -454,6 +456,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "1b167d0b-8840-4de9-be2c-713538496dc4",
+      "Keyboard_Unit"
+    ],
+    [
+      "a890f6b0-b9f1-46a6-94f7-97d939b60241",
+      "Relay_UNiT Sheet"
     ]
   ],
   "text_variables": {}
