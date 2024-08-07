@@ -995,6 +995,12 @@
 		(uuid "d23d24ce-a2fa-40d3-aa54-599769be9f19")
 	)
 	(junction
+		(at 213.36 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ff04c9-eed2-457b-b1cc-a27422645669")
+	)
+	(junction
 		(at 231.14 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1269,6 +1275,16 @@
 			(type default)
 		)
 		(uuid "09638c61-4841-4173-b1af-6e7466356f57")
+	)
+	(wire
+		(pts
+			(xy 213.36 154.94) (xy 256.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a054172-5be1-4566-bed1-c0c3b1f8b3cb")
 	)
 	(wire
 		(pts
@@ -3314,6 +3330,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 256.54 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6edc978-5c0c-4563-a292-dd86d682c38e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.5068 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 256.54 43.18 0)
@@ -3503,7 +3541,6 @@
 		(uuid "b653796d-4b2a-48d5-8a5a-b4e702d356fd")
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 153.67 43.18 0)
 		(unit 1)
@@ -3584,7 +3621,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 130.81 43.18 0)
 		(unit 1)
@@ -3949,7 +3985,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 176.53 96.52 0)
 		(unit 1)
@@ -4170,7 +4205,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 69.85 0)
 		(unit 1)
@@ -4251,7 +4285,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 96.52 0)
 		(unit 1)
@@ -4332,7 +4365,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 176.53 69.85 0)
 		(unit 1)
@@ -4413,7 +4445,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 199.39 43.18 0)
 		(unit 1)
@@ -4494,7 +4525,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 43.18 0)
 		(unit 1)
@@ -4700,10 +4730,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa7")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5853")
 		)
 		(instances
 			(project ""
@@ -4715,7 +4745,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 222.25 96.52 0)
 		(unit 1)
@@ -4796,7 +4825,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 85.09 96.52 0)
 		(unit 1)
@@ -4945,7 +4973,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 199.39 123.19 0)
 		(unit 1)
@@ -5079,10 +5106,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e12f76e-03d0-4fe7-80d9-b380afa30a4f")
+			(uuid "4e12f76e-03d0-4fe7-80d9-b380afa30a50")
 		)
 		(pin "2"
-			(uuid "410e1538-a201-4e8d-b690-659eebbb5805")
+			(uuid "410e1538-a201-4e8d-b690-659eebbb5806")
 		)
 		(instances
 			(project ""
@@ -5094,7 +5121,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 199.39 96.52 0)
 		(unit 1)
@@ -5303,13 +5329,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd49")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271aa")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b8178f")
 		)
 		(instances
 			(project ""
@@ -5374,10 +5400,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fd")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9f")
 		)
 		(instances
 			(project ""
@@ -5465,7 +5491,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 199.39 69.85 0)
 		(unit 1)
@@ -5671,10 +5696,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa8")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5854")
 		)
 		(instances
 			(project ""
@@ -5814,13 +5839,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd4a")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271ab")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81790")
 		)
 		(instances
 			(project ""
@@ -5890,13 +5915,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd4b")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271ac")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81791")
 		)
 		(instances
 			(project ""
@@ -6033,10 +6058,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa9")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5855")
 		)
 		(instances
 			(project ""
@@ -6101,10 +6126,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e12f76e-03d0-4fe7-80d9-b380afa30a4f")
+			(uuid "4e12f76e-03d0-4fe7-80d9-b380afa30a51")
 		)
 		(pin "2"
-			(uuid "410e1538-a201-4e8d-b690-659eebbb5805")
+			(uuid "410e1538-a201-4e8d-b690-659eebbb5807")
 		)
 		(instances
 			(project ""
@@ -6315,10 +6340,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e12f76e-03d0-4fe7-80d9-b380afa30a4f")
+			(uuid "4e12f76e-03d0-4fe7-80d9-b380afa30a52")
 		)
 		(pin "2"
-			(uuid "410e1538-a201-4e8d-b690-659eebbb5805")
+			(uuid "410e1538-a201-4e8d-b690-659eebbb5808")
 		)
 		(instances
 			(project ""
@@ -6400,7 +6425,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 107.95 96.52 0)
 		(unit 1)
@@ -6481,7 +6505,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 176.53 43.18 0)
 		(unit 1)
@@ -6562,7 +6585,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 222.25 123.19 0)
 		(unit 1)
@@ -6841,13 +6863,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd4c")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271ad")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81792")
 		)
 		(instances
 			(project ""
@@ -6987,13 +7009,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd4d")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271ae")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81793")
 		)
 		(instances
 			(project ""
@@ -7005,7 +7027,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 85.09 69.85 0)
 		(unit 1)
@@ -7139,10 +7160,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fe")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bfa0")
 		)
 		(instances
 			(project ""
@@ -7224,7 +7245,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 153.67 96.52 0)
 		(unit 1)
@@ -7363,13 +7383,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd4e")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271af")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81794")
 		)
 		(instances
 			(project ""
@@ -7381,7 +7401,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 130.81 123.19 0)
 		(unit 1)
@@ -7517,10 +7536,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfaa")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5856")
 		)
 		(instances
 			(project ""
@@ -7602,7 +7621,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 153.67 69.85 0)
 		(unit 1)
@@ -7753,7 +7771,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 153.67 123.19 0)
 		(unit 1)
@@ -7892,13 +7909,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd4f")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271b0")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81795")
 		)
 		(instances
 			(project ""
@@ -7980,7 +7997,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 176.53 123.19 0)
 		(unit 1)
@@ -8116,10 +8132,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfab")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5857")
 		)
 		(instances
 			(project ""
@@ -8184,10 +8200,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9ff")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bfa1")
 		)
 		(instances
 			(project ""
@@ -8254,10 +8270,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfac")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5858")
 		)
 		(instances
 			(project ""
@@ -8322,10 +8338,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769dba00")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bfa2")
 		)
 		(instances
 			(project ""
@@ -8337,7 +8353,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 130.81 96.52 0)
 		(unit 1)
@@ -8418,7 +8433,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 107.95 69.85 0)
 		(unit 1)
@@ -8552,10 +8566,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769dba01")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bfa3")
 		)
 		(instances
 			(project ""
@@ -8707,7 +8721,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 123.19 0)
 		(unit 1)
@@ -8788,7 +8801,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 222.25 69.85 0)
 		(unit 1)
@@ -8922,10 +8934,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769dba02")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bfa4")
 		)
 		(instances
 			(project ""
@@ -8995,13 +9007,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd50")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271b1")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81796")
 		)
 		(instances
 			(project ""
@@ -9013,7 +9025,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 130.81 69.85 0)
 		(unit 1)
@@ -9164,7 +9175,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 85.09 43.18 0)
 		(unit 1)
@@ -9300,10 +9310,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfa6")
+			(uuid "00043cba-31e5-4ef6-bd58-62f4742ecfad")
 		)
 		(pin "2"
-			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5852")
+			(uuid "d235e5b0-325f-42f4-8a44-d6cb0d0f5859")
 		)
 		(instances
 			(project ""
@@ -9508,10 +9518,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c690567b-4a25-4dbd-ac1a-514a769db9fc")
+			(uuid "c690567b-4a25-4dbd-ac1a-514a769dba03")
 		)
 		(pin "2"
-			(uuid "2cc00291-287c-4461-8b86-22a80ec5bf9e")
+			(uuid "2cc00291-287c-4461-8b86-22a80ec5bfa5")
 		)
 		(instances
 			(project ""
@@ -9593,7 +9603,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 107.95 43.18 0)
 		(unit 1)
@@ -9674,7 +9683,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 222.25 43.18 0)
 		(unit 1)
@@ -9813,13 +9821,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd48")
+			(uuid "bd80d881-c8a2-4e9a-bcb2-5c49e8e6bd51")
 		)
 		(pin "3"
-			(uuid "6e91f179-821c-4913-8964-ec35a24271a9")
+			(uuid "6e91f179-821c-4913-8964-ec35a24271b2")
 		)
 		(pin "1"
-			(uuid "18c34e3a-6e00-400b-a278-466511b8178e")
+			(uuid "18c34e3a-6e00-400b-a278-466511b81797")
 		)
 		(instances
 			(project ""
@@ -9831,7 +9839,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 85.09 123.19 0)
 		(unit 1)
@@ -9982,7 +9989,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 107.95 123.19 0)
 		(unit 1)

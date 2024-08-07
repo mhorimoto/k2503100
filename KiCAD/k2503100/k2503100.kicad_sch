@@ -20,46 +20,7 @@
 		(uuid "c364973a-9a67-4667-8185-a3a5c6c6cbdf")
 	)
 	(sheet
-		(at 29.718 128.016)
-		(size 15.494 49.022)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ab553fed-b202-4b38-8341-81b70e34f86a")
-		(property "Sheetname" "Keyboard_UNiT"
-			(at 29.718 127.3044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Sheetfile" "Keyboard_UNiT.kicad_sch"
-			(at 29.718 177.6226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "k2503100"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 57.15)
+		(at 95.25 90.17)
 		(size 12.7 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -71,7 +32,7 @@
 		)
 		(uuid "bb472472-ee44-45cb-8049-66bf430f5e32")
 		(property "Sheetname" "KYBD_UNiT"
-			(at 38.1 56.4384 0)
+			(at 95.25 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "KYBD_UNit.kicad_sch"
-			(at 38.1 78.0546 0)
+			(at 95.25 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
