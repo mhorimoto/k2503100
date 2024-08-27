@@ -1675,8 +1675,8 @@
 		)
 	)
 	(sheet
-		(at 36.83 34.925)
-		(size 36.83 101.6)
+		(at 36.83 61.595)
+		(size 36.83 74.93)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1687,7 +1687,7 @@
 		)
 		(uuid "bb472472-ee44-45cb-8049-66bf430f5e32")
 		(property "Sheetname" "KYBD_UNiT"
-			(at 36.83 34.2134 0)
+			(at 36.83 60.8834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,10 +1824,130 @@
 			)
 			(uuid "e2e02561-89b6-4207-b055-6a48cb7cde01")
 		)
+		(pin "KCOL1" input
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "834e2d1c-6417-4d8f-899a-0971f08611f9")
+		)
+		(pin "KCOL2" input
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16b13144-b06a-4734-9c35-32aafc5cc47b")
+		)
+		(pin "KCOL3" input
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c49912a-28f8-4975-8fbe-56e6c2bf5c2e")
+		)
+		(pin "KCOL4" input
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50fc32fc-c153-4516-8809-e89a7599c808")
+		)
+		(pin "KCOL5" input
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1661bba0-3a03-41cb-b08b-63e17fa27f65")
+		)
+		(pin "KCOL6" input
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d33a95c9-8c19-4704-81b2-61c37eec16f2")
+		)
+		(pin "KCOL7" input
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c5bf9b0-6451-468e-9b5b-e16eeb121f1c")
+		)
+		(pin "KCOL8" input
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03d72fd3-906e-4f03-93db-c26b239dcfd0")
+		)
+		(pin "KROW3" input
+			(at 73.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49ac81c2-f4c0-4003-8bfb-d909db842583")
+		)
+		(pin "KROW4" input
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b7f866f-f63e-4b02-a12f-4dd24a462713")
+		)
+		(pin "KROW2" input
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64785a06-cbb2-45a8-8dc1-8698191d84fa")
+		)
+		(pin "KROW1" input
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3af4b92-ea6d-4e54-983a-d530a5c2aca4")
+		)
 		(instances
 			(project "k2503100"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
