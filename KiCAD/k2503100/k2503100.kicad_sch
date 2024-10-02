@@ -5,7 +5,10 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(date "mar. 31 mars 2015")
+		(title "k2503100 操作パネル")
+		(date "2024-10-02")
+		(rev "0.90")
+		(company "HOLLY&Co.,Ltd. Masafumi Horimoto")
 	)
 	(lib_symbols
 		(symbol "teensy:Teensy4.1"
@@ -1920,7 +1923,7 @@
 	)
 	(text "* Indicates a PWM-capable pin"
 		(exclude_from_sim no)
-		(at 177.8 180.34 0)
+		(at 251.968 179.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
