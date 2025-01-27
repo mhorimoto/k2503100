@@ -1559,12 +1559,20 @@
 		(uuid "02386583-57a4-4c89-9231-f131af41df7c")
 	)
 	(no_connect
+		(at 55.88 129.54)
+		(uuid "0570a52d-de1d-4e6e-94c6-dc2e2ab264f2")
+	)
+	(no_connect
 		(at 204.47 54.61)
 		(uuid "0c44a6ac-1419-4266-8957-67f46ef7dda1")
 	)
 	(no_connect
 		(at 83.82 107.95)
 		(uuid "0e619f10-63bf-4f5e-935c-008116660856")
+	)
+	(no_connect
+		(at 156.21 49.53)
+		(uuid "114aabcf-0f93-4346-9213-ca2bfa31e152")
 	)
 	(no_connect
 		(at 107.95 107.95)
@@ -1575,8 +1583,24 @@
 		(uuid "1978ffdc-ab10-4999-98fa-7300874918a8")
 	)
 	(no_connect
+		(at 83.82 49.53)
+		(uuid "1b235740-533b-4ad2-a468-92ba9b325dfb")
+	)
+	(no_connect
 		(at 180.34 134.62)
 		(uuid "1c6e7441-ef49-4043-9839-a30348a2f075")
+	)
+	(no_connect
+		(at 204.47 129.54)
+		(uuid "215b28cb-151b-4f89-bc8c-3de1ac6952cf")
+	)
+	(no_connect
+		(at 204.47 49.53)
+		(uuid "27101f50-f9b9-4cbb-b4d4-ddefb4c9928a")
+	)
+	(no_connect
+		(at 107.95 49.53)
+		(uuid "2d0f5d93-8623-4ccc-975b-501b2741007d")
 	)
 	(no_connect
 		(at 132.08 81.28)
@@ -1591,6 +1615,10 @@
 		(uuid "36b0c91e-0ca5-45b7-ba61-0f9cb4d13a4a")
 	)
 	(no_connect
+		(at 132.08 102.87)
+		(uuid "36e766b6-138e-4789-a993-b11a451a7d61")
+	)
+	(no_connect
 		(at 204.47 107.95)
 		(uuid "379c12c6-b1db-4848-8a59-ef24b38877ff")
 	)
@@ -1603,12 +1631,32 @@
 		(uuid "3e897989-cb77-4705-ba3f-38d058405d63")
 	)
 	(no_connect
+		(at 132.08 49.53)
+		(uuid "3fceea7d-8564-4056-9b51-0770a3f39efa")
+	)
+	(no_connect
+		(at 156.21 76.2)
+		(uuid "44d10502-aaf4-42a4-ad55-5c4de5163ea0")
+	)
+	(no_connect
+		(at 228.6 129.54)
+		(uuid "454a4a13-b164-4b2d-b337-e7f5a5d13d04")
+	)
+	(no_connect
 		(at 132.08 134.62)
 		(uuid "4b7eb853-9a80-4462-b01b-f421a1f3105a")
 	)
 	(no_connect
+		(at 204.47 102.87)
+		(uuid "4c7d33ad-8946-4d69-929b-e5e689315593")
+	)
+	(no_connect
 		(at 55.88 107.95)
 		(uuid "50064505-82d7-4e07-8a3b-aece51ab2d46")
+	)
+	(no_connect
+		(at 83.82 129.54)
+		(uuid "5846dd74-0a9b-45f7-a9ca-a36a48af990f")
 	)
 	(no_connect
 		(at 55.88 134.62)
@@ -1627,12 +1675,32 @@
 		(uuid "6b95ec46-77ca-4aba-96da-02015dfbe139")
 	)
 	(no_connect
+		(at 107.95 102.87)
+		(uuid "6cf72dbb-4591-442b-b46f-f584cf42dffe")
+	)
+	(no_connect
+		(at 156.21 129.54)
+		(uuid "6d7a562e-ec39-43ac-a89f-a9686c2286ba")
+	)
+	(no_connect
+		(at 228.6 49.53)
+		(uuid "707564bb-a530-4507-82e5-5709f3f10767")
+	)
+	(no_connect
+		(at 156.21 102.87)
+		(uuid "7a08990c-acd8-4bb2-acab-5a2d85a855fa")
+	)
+	(no_connect
 		(at 180.34 54.61)
 		(uuid "8443e8aa-4bcb-4ea6-94f8-2c34ee428d96")
 	)
 	(no_connect
 		(at 228.6 81.28)
 		(uuid "90b96152-79b6-4b83-9b6a-fb3448fd772c")
+	)
+	(no_connect
+		(at 132.08 76.2)
+		(uuid "978d796b-3720-4d40-b122-3e222d2da533")
 	)
 	(no_connect
 		(at 180.34 81.28)
@@ -1643,20 +1711,80 @@
 		(uuid "9bc1ba78-a15d-428e-9239-203be1f29067")
 	)
 	(no_connect
+		(at 228.6 102.87)
+		(uuid "9c032370-1ba9-4409-8522-2b470033763e")
+	)
+	(no_connect
+		(at 55.88 102.87)
+		(uuid "a38aaf05-5006-4729-904c-4a2bc7dd4808")
+	)
+	(no_connect
+		(at 132.08 129.54)
+		(uuid "a4c7c1ee-69e5-4a84-92ab-83751c815430")
+	)
+	(no_connect
 		(at 156.21 54.61)
 		(uuid "a50a2c4e-af8a-4f42-91a0-7a44d52c208d")
+	)
+	(no_connect
+		(at 55.88 76.2)
+		(uuid "aa1c5971-cdb1-4afc-af77-a88ebd415bd2")
 	)
 	(no_connect
 		(at 107.95 134.62)
 		(uuid "adfb94fc-ae19-4ef9-9373-d555a0d8fcb5")
 	)
 	(no_connect
+		(at 180.34 129.54)
+		(uuid "aee5f78f-3fe3-45ea-aa02-db2329d9ce58")
+	)
+	(no_connect
+		(at 107.95 129.54)
+		(uuid "ba45f99c-8277-44a5-9fb8-0f424c97bd7f")
+	)
+	(no_connect
+		(at 83.82 102.87)
+		(uuid "bd6fa596-5cbc-4c6a-82d8-ae8055308bd7")
+	)
+	(no_connect
+		(at 107.95 76.2)
+		(uuid "be595604-a858-4808-bed4-728512323b3a")
+	)
+	(no_connect
 		(at 180.34 107.95)
 		(uuid "c018b94c-c1e4-4abb-b008-b4565041b214")
 	)
 	(no_connect
+		(at 228.6 76.2)
+		(uuid "c3981280-5f12-4921-b40a-07793732ee65")
+	)
+	(no_connect
+		(at 180.34 102.87)
+		(uuid "cd40883f-be4f-49d8-aec5-a369a772dc1d")
+	)
+	(no_connect
 		(at 83.82 134.62)
 		(uuid "d0506386-33bf-446e-95c6-020cc88830fa")
+	)
+	(no_connect
+		(at 180.34 76.2)
+		(uuid "d6df7a12-e20c-40e1-95f6-4f85e7e2fd5c")
+	)
+	(no_connect
+		(at 83.82 76.2)
+		(uuid "da8086cf-c054-40c4-9223-8190e1e879ac")
+	)
+	(no_connect
+		(at 55.88 49.53)
+		(uuid "dbf3e7f7-8cba-48f4-8d1f-7a904b516fc9")
+	)
+	(no_connect
+		(at 204.47 76.2)
+		(uuid "e0732465-66e4-4edd-afc8-062450d22a78")
+	)
+	(no_connect
+		(at 55.88 54.61)
+		(uuid "eca93a21-eee8-45c5-92db-fb12a257e83d")
 	)
 	(no_connect
 		(at 204.47 81.28)
@@ -1665,6 +1793,10 @@
 	(no_connect
 		(at 55.88 81.28)
 		(uuid "f00d8eb3-8d6f-4e67-8f69-e23dcba83b77")
+	)
+	(no_connect
+		(at 180.34 49.53)
+		(uuid "f025a954-261c-4522-9d34-477a744d8d28")
 	)
 	(no_connect
 		(at 132.08 107.95)
@@ -6011,7 +6143,6 @@
 	(hierarchical_label "KCOL6"
 		(shape input)
 		(at 33.02 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6023,7 +6154,6 @@
 	(hierarchical_label "KCOL8"
 		(shape input)
 		(at 33.02 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6035,7 +6165,6 @@
 	(hierarchical_label "COL8"
 		(shape input)
 		(at 33.02 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6047,7 +6176,6 @@
 	(hierarchical_label "KROW2"
 		(shape input)
 		(at 275.59 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6059,7 +6187,6 @@
 	(hierarchical_label "KROW4"
 		(shape input)
 		(at 275.59 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6071,7 +6198,6 @@
 	(hierarchical_label "ROW4"
 		(shape input)
 		(at 275.59 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6083,7 +6209,6 @@
 	(hierarchical_label "COL5"
 		(shape input)
 		(at 33.02 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6095,7 +6220,6 @@
 	(hierarchical_label "COL2"
 		(shape input)
 		(at 33.02 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6107,7 +6231,6 @@
 	(hierarchical_label "KCOL1"
 		(shape input)
 		(at 33.02 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,7 +6242,6 @@
 	(hierarchical_label "COL3"
 		(shape input)
 		(at 33.02 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6131,7 +6253,6 @@
 	(hierarchical_label "COL4"
 		(shape input)
 		(at 33.02 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6143,7 +6264,6 @@
 	(hierarchical_label "KROW1"
 		(shape input)
 		(at 275.59 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6155,7 +6275,6 @@
 	(hierarchical_label "KCOL5"
 		(shape input)
 		(at 33.02 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6167,7 +6286,6 @@
 	(hierarchical_label "ROW2"
 		(shape input)
 		(at 275.59 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6179,7 +6297,6 @@
 	(hierarchical_label "COL7"
 		(shape input)
 		(at 33.02 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6191,7 +6308,6 @@
 	(hierarchical_label "COL1"
 		(shape input)
 		(at 33.02 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6203,7 +6319,6 @@
 	(hierarchical_label "KCOL4"
 		(shape input)
 		(at 33.02 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6215,7 +6330,6 @@
 	(hierarchical_label "COL6"
 		(shape input)
 		(at 33.02 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6227,7 +6341,6 @@
 	(hierarchical_label "ROW3"
 		(shape input)
 		(at 275.59 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6239,7 +6352,6 @@
 	(hierarchical_label "KCOL7"
 		(shape input)
 		(at 33.02 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6251,7 +6363,6 @@
 	(hierarchical_label "ROW1"
 		(shape input)
 		(at 275.59 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6263,7 +6374,6 @@
 	(hierarchical_label "KROW3"
 		(shape input)
 		(at 275.59 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6275,7 +6385,6 @@
 	(hierarchical_label "KCOL3"
 		(shape input)
 		(at 33.02 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,7 +6396,6 @@
 	(hierarchical_label "KCOL2"
 		(shape input)
 		(at 33.02 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
