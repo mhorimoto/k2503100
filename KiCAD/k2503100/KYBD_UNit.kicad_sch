@@ -6405,6 +6405,7 @@
 		(uuid "c9690a06-b937-49fa-b410-ef878fe49c59")
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 43.18 0)
 		(unit 1)
@@ -6502,6 +6503,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 43.18 0)
 		(unit 1)
@@ -6624,7 +6626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 42.164 148.844 90)
 			(effects
 				(font
@@ -6788,7 +6790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 83.312 146.05 0)
 			(effects
 				(font
@@ -6797,7 +6799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 85.09 151.765 0)
 			(effects
 				(font
@@ -6808,7 +6810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 80.01 149.86 0)
 			(effects
 				(font
@@ -6891,7 +6893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.406 94.234 90)
 			(effects
 				(font
@@ -7154,7 +7156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.606 67.564 90)
 			(effects
 				(font
@@ -7215,6 +7217,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 96.52 0)
 		(unit 1)
@@ -7339,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.066 40.894 90)
 			(effects
 				(font
@@ -7602,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 197.866 67.564 90)
 			(effects
 				(font
@@ -7663,6 +7666,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 69.85 0)
 		(unit 1)
@@ -7760,6 +7764,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 96.52 0)
 		(unit 1)
@@ -7857,6 +7862,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 69.85 0)
 		(unit 1)
@@ -7954,6 +7960,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 43.18 0)
 		(unit 1)
@@ -8051,6 +8058,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 43.18 0)
 		(unit 1)
@@ -8175,7 +8183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.666 67.564 90)
 			(effects
 				(font
@@ -8350,7 +8358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.196 40.894 90)
 			(effects
 				(font
@@ -8411,6 +8419,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 96.52 0)
 		(unit 1)
@@ -8508,6 +8517,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 96.52 0)
 		(unit 1)
@@ -8630,7 +8640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.034 109.474 90)
 			(effects
 				(font
@@ -8866,6 +8876,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 123.19 0)
 		(unit 1)
@@ -8988,7 +8999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.034 29.464 90)
 			(effects
 				(font
@@ -9049,6 +9060,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 96.52 0)
 		(unit 1)
@@ -9173,7 +9185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.606 94.234 90)
 			(effects
 				(font
@@ -9512,7 +9524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 155.702 146.05 0)
 			(effects
 				(font
@@ -9521,7 +9533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 157.48 151.765 0)
 			(effects
 				(font
@@ -9532,7 +9544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 152.4 149.86 0)
 			(effects
 				(font
@@ -9788,7 +9800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.764 148.844 90)
 			(effects
 				(font
@@ -9867,7 +9879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 258.0386 85.0321 0)
 			(effects
 				(font
@@ -9876,7 +9888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 257.81 85.725 0)
 			(effects
 				(font
@@ -9887,7 +9899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -9943,6 +9955,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 69.85 0)
 		(unit 1)
@@ -10067,7 +10080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.406 120.904 90)
 			(effects
 				(font
@@ -10242,7 +10255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 98.806 40.894 90)
 			(effects
 				(font
@@ -10330,7 +10343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.476 67.564 90)
 			(effects
 				(font
@@ -10409,7 +10422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 258.0386 31.6921 0)
 			(effects
 				(font
@@ -10418,7 +10431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 257.81 32.385 0)
 			(effects
 				(font
@@ -10429,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 262.89 30.48 0)
 			(effects
 				(font
@@ -10589,7 +10602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 131.572 145.796 0)
 			(effects
 				(font
@@ -10598,7 +10611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 133.35 151.765 0)
 			(effects
 				(font
@@ -10609,7 +10622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -10692,7 +10705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.666 120.904 90)
 			(effects
 				(font
@@ -10780,7 +10793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.326 40.894 90)
 			(effects
 				(font
@@ -10866,7 +10879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.034 82.804 90)
 			(effects
 				(font
@@ -10945,7 +10958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 258.0386 111.7021 0)
 			(effects
 				(font
@@ -10954,7 +10967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 257.81 112.395 0)
 			(effects
 				(font
@@ -10965,7 +10978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -11048,7 +11061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.346 94.234 90)
 			(effects
 				(font
@@ -11221,7 +11234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.034 56.134 90)
 			(effects
 				(font
@@ -11309,7 +11322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.406 67.564 90)
 			(effects
 				(font
@@ -11370,6 +11383,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 96.52 0)
 		(unit 1)
@@ -11467,6 +11481,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 43.18 0)
 		(unit 1)
@@ -11651,6 +11666,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 123.19 0)
 		(unit 1)
@@ -11862,7 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 197.866 120.904 90)
 			(effects
 				(font
@@ -11950,7 +11966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 197.866 94.234 90)
 			(effects
 				(font
@@ -12117,7 +12133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 229.6414 151.0721 0)
 			(effects
 				(font
@@ -12126,7 +12142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 229.87 151.765 0)
 			(effects
 				(font
@@ -12137,7 +12153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -12220,7 +12236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 221.996 67.564 90)
 			(effects
 				(font
@@ -12384,7 +12400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 204.216 146.304 0)
 			(effects
 				(font
@@ -12393,7 +12409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 205.74 151.765 0)
 			(effects
 				(font
@@ -12404,7 +12420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -12460,6 +12476,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 69.85 0)
 		(unit 1)
@@ -12669,7 +12686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.894 148.844 90)
 			(effects
 				(font
@@ -12757,7 +12774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 221.996 120.904 90)
 			(effects
 				(font
@@ -12991,6 +13008,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 96.52 0)
 		(unit 1)
@@ -13106,7 +13124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 258.0386 58.3621 0)
 			(effects
 				(font
@@ -13115,7 +13133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 257.81 59.055 0)
 			(effects
 				(font
@@ -13126,7 +13144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 262.89 57.15 0)
 			(effects
 				(font
@@ -13182,6 +13200,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 123.19 0)
 		(unit 1)
@@ -13394,7 +13413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 219.456 40.894 90)
 			(effects
 				(font
@@ -13658,7 +13677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.346 67.564 90)
 			(effects
 				(font
@@ -13719,6 +13738,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 69.85 0)
 		(unit 1)
@@ -13843,7 +13863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.666 94.234 90)
 			(effects
 				(font
@@ -13990,6 +14010,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 123.19 0)
 		(unit 1)
@@ -14191,7 +14212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 108.204 145.542 0)
 			(effects
 				(font
@@ -14200,7 +14221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 109.22 151.765 0)
 			(effects
 				(font
@@ -14211,7 +14232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 104.14 149.86 0)
 			(effects
 				(font
@@ -14294,7 +14315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.736 120.904 90)
 			(effects
 				(font
@@ -14355,6 +14376,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 123.19 0)
 		(unit 1)
@@ -14478,7 +14500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 246.126 40.894 90)
 			(effects
 				(font
@@ -14564,7 +14586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 192.024 148.844 90)
 			(effects
 				(font
@@ -14652,7 +14674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.406 40.894 90)
 			(effects
 				(font
@@ -14738,7 +14760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 95.504 148.844 90)
 			(effects
 				(font
@@ -14799,6 +14821,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 96.52 0)
 		(unit 1)
@@ -14896,6 +14919,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 69.85 0)
 		(unit 1)
@@ -15018,7 +15042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.634 148.844 90)
 			(effects
 				(font
@@ -15281,7 +15305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 221.996 94.234 90)
 			(effects
 				(font
@@ -15369,7 +15393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.736 94.234 90)
 			(effects
 				(font
@@ -15430,6 +15454,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 123.19 0)
 		(unit 1)
@@ -15527,6 +15552,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 69.85 0)
 		(unit 1)
@@ -15736,7 +15762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.374 148.844 90)
 			(effects
 				(font
@@ -15903,7 +15929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 55.6514 151.0721 0)
 			(effects
 				(font
@@ -15912,7 +15938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 55.88 151.765 0)
 			(effects
 				(font
@@ -15923,7 +15949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 50.8 149.86 0)
 			(effects
 				(font
@@ -15979,6 +16005,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 69.85 0)
 		(unit 1)
@@ -16103,7 +16130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.606 120.904 90)
 			(effects
 				(font
@@ -16164,6 +16191,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 43.18 0)
 		(unit 1)
@@ -16288,7 +16316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.936 40.894 90)
 			(effects
 				(font
@@ -16376,7 +16404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.476 120.904 90)
 			(effects
 				(font
@@ -16464,7 +16492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.476 94.234 90)
 			(effects
 				(font
@@ -16550,7 +16578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 217.424 148.844 90)
 			(effects
 				(font
@@ -16638,7 +16666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.346 120.904 90)
 			(effects
 				(font
@@ -16699,6 +16727,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 43.18 0)
 		(unit 1)
@@ -16796,6 +16825,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 43.18 0)
 		(unit 1)
@@ -16910,7 +16940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "NNBT3904"
 			(at 179.832 146.304 0)
 			(effects
 				(font
@@ -16919,7 +16949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 181.61 151.765 0)
 			(effects
 				(font
@@ -16930,7 +16960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
 			(at 176.53 149.86 0)
 			(effects
 				(font
@@ -16986,6 +17016,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 123.19 0)
 		(unit 1)
@@ -17110,7 +17141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.736 67.564 90)
 			(effects
 				(font
@@ -17171,6 +17202,7 @@
 		)
 	)
 	(symbol
+		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 123.19 0)
 		(unit 1)

@@ -532,7 +532,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -580,14 +580,14 @@
           "group_by": false,
           "label": "説明",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {

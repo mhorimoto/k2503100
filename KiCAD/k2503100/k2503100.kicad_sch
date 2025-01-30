@@ -2734,7 +2734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HOLLY2:MP86A1"
 			(at 76.2 24.13 0)
 			(effects
 				(font
@@ -2801,7 +2801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HOLLY2:MP86A1"
 			(at 76.2 15.24 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HOLLY2:MP86A1"
 			(at 76.2 33.02 0)
 			(effects
 				(font
@@ -2938,7 +2938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "teensy:Teensy41"
 			(at 200.66 96.52 0)
 			(effects
 				(font
