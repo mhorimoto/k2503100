@@ -2709,6 +2709,16 @@
 		)
 		(uuid "c364973a-9a67-4667-8185-a3a5c6c6cbdf")
 	)
+	(label "GND"
+		(at 190.5 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca4b1b7-b115-4e50-833d-e8ae3e46ccbe")
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 76.2 29.21 0)

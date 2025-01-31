@@ -6405,7 +6405,6 @@
 		(uuid "c9690a06-b937-49fa-b410-ef878fe49c59")
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 43.18 0)
 		(unit 1)
@@ -6503,7 +6502,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 43.18 0)
 		(unit 1)
@@ -7217,7 +7215,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 96.52 0)
 		(unit 1)
@@ -7666,7 +7663,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 69.85 0)
 		(unit 1)
@@ -7764,7 +7760,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 96.52 0)
 		(unit 1)
@@ -7862,7 +7857,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 69.85 0)
 		(unit 1)
@@ -7960,7 +7954,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 43.18 0)
 		(unit 1)
@@ -8058,7 +8051,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 43.18 0)
 		(unit 1)
@@ -8419,7 +8411,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 96.52 0)
 		(unit 1)
@@ -8517,7 +8508,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 96.52 0)
 		(unit 1)
@@ -8876,7 +8866,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 123.19 0)
 		(unit 1)
@@ -9060,7 +9049,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 96.52 0)
 		(unit 1)
@@ -9955,7 +9943,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 210.82 69.85 0)
 		(unit 1)
@@ -11383,7 +11370,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 96.52 0)
 		(unit 1)
@@ -11481,7 +11467,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 43.18 0)
 		(unit 1)
@@ -11666,7 +11651,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 123.19 0)
 		(unit 1)
@@ -12476,7 +12460,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 69.85 0)
 		(unit 1)
@@ -13008,7 +12991,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 96.52 0)
 		(unit 1)
@@ -13200,7 +13182,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 123.19 0)
 		(unit 1)
@@ -13738,7 +13719,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 69.85 0)
 		(unit 1)
@@ -14010,7 +13990,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 162.56 123.19 0)
 		(unit 1)
@@ -14376,7 +14355,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 186.69 123.19 0)
 		(unit 1)
@@ -14821,7 +14799,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 96.52 0)
 		(unit 1)
@@ -14919,7 +14896,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 69.85 0)
 		(unit 1)
@@ -15454,7 +15430,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 62.23 123.19 0)
 		(unit 1)
@@ -15552,7 +15527,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 69.85 0)
 		(unit 1)
@@ -16005,7 +15979,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 138.43 69.85 0)
 		(unit 1)
@@ -16191,7 +16164,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 43.18 0)
 		(unit 1)
@@ -16727,7 +16699,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 43.18 0)
 		(unit 1)
@@ -16825,7 +16796,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 234.95 43.18 0)
 		(unit 1)
@@ -17016,7 +16986,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 90.17 123.19 0)
 		(unit 1)
@@ -17202,7 +17171,6 @@
 		)
 	)
 	(symbol
-		(lib_name "K2503100:MP86A1")
 		(lib_id "K2503100:MP86A1")
 		(at 114.3 123.19 0)
 		(unit 1)
