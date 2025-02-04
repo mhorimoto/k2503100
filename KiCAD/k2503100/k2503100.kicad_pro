@@ -676,7 +676,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GOUT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -687,7 +687,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "k2503100-pcbgogo-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
