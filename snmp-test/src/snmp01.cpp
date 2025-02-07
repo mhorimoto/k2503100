@@ -30,7 +30,7 @@ int buttonSW2 = HIGH;
 int pbSW2 = HIGH;
 int buttonSW3 = HIGH;
 int pbSW3 = HIGH;
-
+int rlyst = 0;
 
 LiquidCrystal_I2C lcd(0x27,16,2);
 EthernetUDP udp;
@@ -45,8 +45,8 @@ void setup() {
     lcd.backlight();
     lcd.setCursor(0,0);
 
-    Serial.println("SNMP Set Example for Teensy 4.1 k2503100-9");
-    lcd.print("k2503100-9");
+    Serial.println("SNMP Set Example for Teensy 4.1 k2503100-11");
+    lcd.print("k2503100-11");
 
     // Ethernet初期化
     Ethernet.init();
@@ -212,17 +212,28 @@ void sendSnmpSet(byte *o,int i,char *v) {
 
 
 void loop() {
-    buttonSW3 = digitalRead(A2);
+    int i;
+    buttonSW1 = digitalRead(SW1);
+    buttonSW2 = digitalRead(SW2);
+    buttonSW3 = digitalRead(SW3);
+    if (buttonSW1 == LOW && pbSW1 == HIGH) {
+        for(i=1;i<=16;i++) {
+            sendSnmpSet(oidbase,i,rlyoff);
+        }
+        pbSW1 = buttonSW1;
+    } else if (buttonSW1 == HIGH && pbSW1 == LOW) {
+        pbSW1 = buttonSW1;
+    }
     if (buttonSW3 == LOW && pbSW3 == HIGH) {
         Serial.print("Button pushed: ");
         Serial.print("SW3=");
         Serial.print(buttonSW3); 
         Serial.print(" pbSW3=");
         Serial.println(pbSW3);
-        lcd.setCursor(0,1);
-        lcd.print("                ");
-        lcd.setCursor(0,1);
-        lcd.print("Button pushed");
+        lcd.setCursor(10,1);
+        lcd.print("     ");
+        lcd.setCursor(10,1);
+        lcd.print("112=1");
         sendSnmpSet(oidbase,112,rlyon);
         pbSW3 = buttonSW3;
     } else if (buttonSW3 == HIGH && pbSW3 == LOW) {
@@ -232,10 +243,39 @@ void loop() {
         Serial.print(" pbSW3=");
         Serial.println(pbSW3);
         sendSnmpSet(oidbase,112,rlyoff);
+        lcd.setCursor(10,1);
+        lcd.print("     ");
+        lcd.setCursor(10,1);
+        lcd.print("112=0");
+        pbSW3 = buttonSW3;
+    }
+    if (buttonSW2 == LOW && pbSW2 == HIGH) {
+        Serial.print("Button pushed: ");
+        Serial.print("SW2=");
+        Serial.print(buttonSW2); 
+        Serial.print(" pbSW2=");
+        Serial.println(pbSW2);
+        rlyst++;
+        if (rlyst > 16) {
+            rlyst = 1;
+        }
+        lcd.setCursor(0,1);
+        lcd.print("RLY=");
+        lcd.setCursor(4,1);
+        lcd.print(rlyst);
+        sendSnmpSet(oidbase,rlyst,rlyon);
+        pbSW2 = buttonSW2;
+    } else if (buttonSW2 == HIGH && pbSW2 == LOW) {
+        Serial.print("Button released: ");
+        Serial.print("SW2=");
+        Serial.print(buttonSW2); 
+        Serial.print(" pbSW2=");
+        Serial.println(pbSW2);
+        sendSnmpSet(oidbase,111,rlyoff);
         lcd.setCursor(0,1);
         lcd.print("             ");
         lcd.setCursor(0,1);
         lcd.print("Button released");
-        pbSW3 = buttonSW3;
+        pbSW2 = buttonSW2;
     }
 }

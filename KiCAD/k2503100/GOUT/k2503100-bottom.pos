@@ -1,0 +1,10 @@
+### Footprint positions - created on 2025-02-07T11:53:00+0900 ###
+### Printed by KiCad version 8.0.8-8.0.8-0~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val        Package                                       PosX       PosY       Rot  Side
+J101      I2C_LCD    JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal   294.7200   -81.2800    0.0000  bottom
+J102      VR         JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal   283.2100   -81.2800    0.0000  bottom
+J103      PWR        JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal    92.0550  -191.7490  180.0000  bottom
+U101      Teensy4.1  Teensy41                                  298.4500  -125.9840  -90.0000  bottom
+## End
