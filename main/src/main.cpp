@@ -4,6 +4,8 @@ void setup(void) {
     lcd_setup();
     button_setup();
     Serial.begin(115200);
+    Serial.println("SNMP Set Example for Teensy 4.1 k2503100-11");
+    lcd.print("k2503100-12");
 
 }
 

@@ -1,3 +1,5 @@
+#include "k2503100.h"
+
 void button_setup(void) {
     pinMode(VR,INPUT);
     pinMode(button_SIRENTEST,INPUT_PULLUP);
@@ -25,23 +27,4 @@ void button_setup(void) {
     pinMode(COL7, OUTPUT);
     pinMode(COL8, OUTPUT);
 
-    Serial.begin(115200);
-    delay(3000);
-    lcd.init();                      // initialize the lcd 
-    lcd.backlight();
-    lcd.setCursor(0,0);
-
-    Serial.println("SNMP Set Example for Teensy 4.1 k2503100-11");
-    lcd.print("k2503100-11");
-
-    // Ethernet初期化
-    Ethernet.init();
-    Ethernet.begin(mac,ip,gateway,gateway,netmask);
-    //Ethernet.begin(mac);
-    
-    Serial.print("IP Address: ");
-    Serial.println(Ethernet.localIP());
-
-    // UDP/SNMPの初期化
-    udp.begin(9988);
 }

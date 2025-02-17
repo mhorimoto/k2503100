@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #inclide "lib-lcd.h"
 
+LiquidCrystal_I2C lcd(LCD_I2C_ADDR,LCD_COLS,LCD_ROWS);  // set the LCD address to 0x27 for a 16 chars and 2 line display
+
 void lcd_setup(void) {
     lcd.init();                      // initialize the lcd 
     lcd.backlight();
