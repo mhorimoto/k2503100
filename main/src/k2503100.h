@@ -3,6 +3,7 @@
 #include <SPI.h>
 #include "lib-lcd.h"
 #include "lib-snmp.h"
+#include "lib-button.h"
 
 #define True  1
 #define False 0

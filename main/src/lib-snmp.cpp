@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include "lib-snmp.h"
 
+EthernetUDP udp;
+
 void snmp_setup(void) {
     Ethernet.init();
     Ethernet.begin(mac,ip,gateway,gateway,netmask);

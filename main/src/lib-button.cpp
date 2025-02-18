@@ -1,4 +1,4 @@
-#include "k2503100.h"
+#include "lib-button.h"
 
 void button_setup(void) {
     pinMode(VR,INPUT);
