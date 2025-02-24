@@ -31,7 +31,7 @@ volatile int  c,r;
 int p1=0,p2=0,p3=0;
 int lc=1 ;
 int a17vr,a17pvr;
-int sirenTimer,voiceTimer,mailTimer;
+int sirenTimer,voiceTimer,mailTimer,autoClearTimer;
 int psw;
 int led[8][4] = {};
 
@@ -65,6 +65,9 @@ void doingSomething1(void) {
     }
     if (voiceTimer>0) {
         voiceTimer--;
+    }
+    if (autoClearTimer>0) {
+        autoClearTimer--;
     }
     lcd.setCursor(15,0);
     lcd.print(psw);
@@ -105,7 +108,7 @@ void bufprt(void) {
     }
 }
 
-const char *ver = "V0.15";
+const char *ver = "V0.16";
 // Enter a MAC address for your controller below.
 // Newer Ethernet shields have a MAC address printed on a sticker on the shield
 
@@ -180,6 +183,7 @@ void setup(void) {
     sirenTimer = 0;
     voiceTimer = 0;
     mailTimer = 0;
+    autoClearTimer = 0;
     psw = STS0;
 }
 
@@ -342,10 +346,10 @@ void loop(void) {
     }
     if (bt) {
         led[c-1][r-1] = (led[c-1][r-1]==0)? 1:0;
-        Serial.print("CR=");
-        Serial.print(c);
-        Serial.print("x");
-        Serial.println(r);
+        //Serial.print("CR=");
+        //Serial.print(c);
+        //Serial.print("x");
+        //Serial.println(r);
         bt = False;
         // check led status
         int z = 0;
@@ -355,6 +359,7 @@ void loop(void) {
             }
             if (z>0) {
                 psw=STS1;
+                autoClearTimer = 60;
                 sirentest_flag=False;
             } else {
                 psw=STS0;
@@ -362,6 +367,18 @@ void loop(void) {
             }
         }
     }
+    if (psw==STS1) {
+        if (autoClearTimer==0) {
+            for (lc=0;lc<8;lc++) {
+                for (lr=0;lr<4;lr++) {
+                    led[lc][lr] = 0;
+                }
+            }
+            broadcast_flag = False;
+            psw = STS0;
+        }
+    }
+    // Check VR value
     if (a17vr!=a17pvr) {
         a17pvr = a17vr;
     }
