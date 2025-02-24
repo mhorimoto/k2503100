@@ -52,7 +52,9 @@ void doingSomething1(void) {
         if (sirenTimer==1) {
             sendSnmpSet(NDIOTR,oidbase,SirenTEST,rlyoff,snmpPort,community);
             LCDPrint1Line(1," ");
-            psw = STS0;
+            if (!broadcast_flag) {
+                psw = STS0;
+            }
         }
         sirenTimer--;
     } else {
@@ -103,7 +105,7 @@ void bufprt(void) {
     }
 }
 
-const char *ver = "K2503100 V0.12";
+const char *ver = "V0.15";
 // Enter a MAC address for your controller below.
 // Newer Ethernet shields have a MAC address printed on a sticker on the shield
 
@@ -325,7 +327,12 @@ void loop(void) {
                     sendSnmpSet(NDIOTR,oidbase,VoiceCH01+idx,rlyoff,snmpPort,community);
                     delay(10);
                 }
-                LCDPrint1Line(1," ");
+                for(lc=0;lc<8;lc++) {
+                    for(lr=0;lr<4;lr++) {
+                        led[lc][lr]=0;
+                    }
+                }   
+                LCDPrint1Line(1,"END");
                 mailTimer = 0;
                 psw = STS0;
                 broadcast_flag = False;
@@ -342,9 +349,9 @@ void loop(void) {
         bt = False;
         // check led status
         int z = 0;
-        for (c=0;c<8;c++) {
-            for (r=0;r<4;r++) {
-                z += led[c][r];
+        for (lc=0;lc<8;lc++) {
+            for (lr=0;lr<4;lr++) {
+                z += led[lc][lr];
             }
             if (z>0) {
                 psw=STS1;
