@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.8-8.0.8-0~ubuntu22.04.1"
+      "Version": "8.0.9-8.0.9-0~ubuntu22.04.1"
     },
-    "CreationDate": "2025-02-04T17:37:33+09:00"
+    "CreationDate": "2025-03-25T13:48:29+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "k2503100",
       "GUID": "6b323530-3331-4303-902e-6b696361645f",
-      "Revision": "1.20"
+      "Revision": "2.00"
     },
     "Size": {
       "X": 260.15,

@@ -1,5 +1,5 @@
-### Footprint positions - created on 2025-02-07T11:53:00+0900 ###
-### Printed by KiCad version 8.0.8-8.0.8-0~ubuntu22.04.1
+### Footprint positions - created on 2025-03-25T13:53:04+0900 ###
+### Printed by KiCad version 8.0.9-8.0.9-0~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val         Package                                           PosX       PosY       Rot  Side
@@ -35,21 +35,21 @@ D229      1N4148W     D_SOD-123                                     204.9780  -1
 D230      1N4148W     D_SOD-123                                     227.8380  -179.3240  -90.0000  top
 D231      1N4148W     D_SOD-123                                     250.6980  -179.3240  -90.0000  top
 D232      1N4148W     D_SOD-123                                     273.5580  -179.3240  -90.0000  top
-Q1        NNBT3904    SOT-23_Handsoldering                          254.6590  -198.9590   90.0000  top
-Q2        NNBT3904    SOT-23_Handsoldering                          139.0890  -198.9590   90.0000  top
-Q3        NNBT3904    SOT-23_Handsoldering                          104.5450  -198.9350   90.0000  top
-Q301      NNBT3904    SOT-23_Handsoldering                          107.8705  -100.0100  180.0000  top
-Q302      NNBT3904    SOT-23_Handsoldering                          130.8340   -95.6920  180.0000  top
-Q303      NNBT3904    SOT-23_Handsoldering                          153.6940  -128.7120  180.0000  top
-Q304      NNBT3904    SOT-23_Handsoldering                          176.5060  -131.4450  180.0000  top
-Q305      NNBT3904    SOT-23_Handsoldering                          199.4140  -159.8270  180.0000  top
-Q306      NNBT3904    SOT-23_Handsoldering                          222.2740  -161.2240  180.0000  top
-Q307      NNBT3904    SOT-23_Handsoldering                          245.0860  -190.5770  180.0000  top
-Q308      NNBT3904    SOT-23_Handsoldering                          267.9940  -190.5770  180.0000  top
-Q309      NNBT3904    SOT-23_Handsoldering                           92.0140   -80.7480  -90.0000  top
-Q310      NNBT3904    SOT-23_Handsoldering                           92.0140  -112.7520  -90.0000  top
-Q311      NNBT3904    SOT-23_Handsoldering                           92.0140  -144.7560  -90.0000  top
-Q312      NNBT3904    SOT-23_Handsoldering                           92.0140  -176.7600  -90.0000  top
+Q1        MMBT3904    SOT-23                                        254.6590  -198.9590   90.0000  top
+Q2        MMBT3904    SOT-23                                        139.0890  -201.3625  -90.0000  top
+Q3        MMBT3904    SOT-23                                        104.5500  -201.3625  -90.0000  top
+Q301      MMBT3904    SOT-23                                        106.3500  -100.0100  -90.0000  top
+Q302      MMBT3904    SOT-23                                        129.2875   -95.6750  -90.0000  top
+Q303      MMBT3904    SOT-23                                        152.1750  -128.7000  -90.0000  top
+Q304      MMBT3904    SOT-23                                        174.9875  -131.4250  -90.0000  top
+Q305      MMBT3904    SOT-23                                        197.8750  -159.8250  -90.0000  top
+Q306      MMBT3904    SOT-23                                        220.7125  -161.2000  -90.0000  top
+Q307      MMBT3904    SOT-23                                        243.6125  -190.5000  -90.0000  top
+Q308      MMBT3904    SOT-23                                        266.4625  -190.6250  -90.0000  top
+Q309      MMBT3904    SOT-23                                         92.0140   -78.3250   90.0000  top
+Q310      MMBT3904    SOT-23                                         92.0140  -110.2750   90.0000  top
+Q311      MMBT3904    SOT-23                                         92.0125  -142.3250   90.0000  top
+Q312      MMBT3904    SOT-23                                         92.0250  -174.2875   90.0000  top
 R1        4.7k        R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   261.3900  -199.4670   90.0000  top
 R2        100         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   261.8472  -210.2620  -90.0000  top
 R3        100         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   148.1060  -210.2620  -90.0000  top
