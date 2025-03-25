@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "KYBD UNIT")
-		(date "2024-08-27")
-		(rev "Rev: 1.00")
+		(date "2025-03-25")
+		(rev "Rev: 2.00")
 		(company "HOLLY & Co.,Ltd.  Masafumi Horimoto")
 		(comment 1 "記載のない抵抗は100Ω")
 		(comment 2 "Diode: 1N4148W")
+		(comment 3 "MMBT3904シンボル変更")
 	)
 	(lib_symbols
 		(symbol "Device:R_US"
@@ -697,7 +698,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:MMBT3904"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -712,7 +713,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
+			(property "Value" "MMBT3904"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -721,7 +722,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -732,7 +733,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -742,7 +743,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -760,7 +761,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -769,7 +770,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "MMBT3904_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -830,11 +831,11 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "MMBT3904_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -850,9 +851,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6771,7 +6772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 80.01 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6788,7 +6789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 83.312 146.05 0)
 			(effects
 				(font
@@ -6797,7 +6798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 85.09 151.765 0)
 			(effects
 				(font
@@ -6808,7 +6809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 80.01 149.86 0)
 			(effects
 				(font
@@ -6818,7 +6819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 80.01 149.86 0)
 			(effects
 				(font
@@ -9495,7 +9496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 152.4 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9512,7 +9513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 155.702 146.05 0)
 			(effects
 				(font
@@ -9521,7 +9522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 157.48 151.765 0)
 			(effects
 				(font
@@ -9532,7 +9533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 152.4 149.86 0)
 			(effects
 				(font
@@ -9542,7 +9543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 152.4 149.86 0)
 			(effects
 				(font
@@ -9849,7 +9850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 262.89 83.82 0)
 		(mirror y)
 		(unit 1)
@@ -9867,7 +9868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 258.0386 85.0321 0)
 			(effects
 				(font
@@ -9876,7 +9877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 257.81 85.725 0)
 			(effects
 				(font
@@ -9887,7 +9888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -9897,7 +9898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -10391,7 +10392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 262.89 30.48 0)
 		(mirror y)
 		(unit 1)
@@ -10409,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 258.0386 31.6921 0)
 			(effects
 				(font
@@ -10418,7 +10419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 257.81 32.385 0)
 			(effects
 				(font
@@ -10429,7 +10430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 262.89 30.48 0)
 			(effects
 				(font
@@ -10439,7 +10440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 262.89 30.48 0)
 			(effects
 				(font
@@ -10572,7 +10573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 128.27 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10589,7 +10590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 131.572 145.796 0)
 			(effects
 				(font
@@ -10598,7 +10599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 133.35 151.765 0)
 			(effects
 				(font
@@ -10609,7 +10610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -10619,7 +10620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -10927,7 +10928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 262.89 110.49 0)
 		(mirror y)
 		(unit 1)
@@ -10945,7 +10946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 258.0386 111.7021 0)
 			(effects
 				(font
@@ -10954,7 +10955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 257.81 112.395 0)
 			(effects
 				(font
@@ -10965,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -10975,7 +10976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -12100,7 +12101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 224.79 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12118,7 +12119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 229.6414 151.0721 0)
 			(effects
 				(font
@@ -12127,7 +12128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 229.87 151.765 0)
 			(effects
 				(font
@@ -12138,7 +12139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -12148,7 +12149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -12368,7 +12369,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 200.66 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12385,7 +12386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 204.216 146.304 0)
 			(effects
 				(font
@@ -12394,7 +12395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 205.74 151.765 0)
 			(effects
 				(font
@@ -12405,7 +12406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -12415,7 +12416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -13089,7 +13090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 262.89 57.15 0)
 		(mirror y)
 		(unit 1)
@@ -13107,7 +13108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 258.0386 58.3621 0)
 			(effects
 				(font
@@ -13116,7 +13117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 257.81 59.055 0)
 			(effects
 				(font
@@ -13127,7 +13128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 262.89 57.15 0)
 			(effects
 				(font
@@ -13137,7 +13138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 262.89 57.15 0)
 			(effects
 				(font
@@ -14175,7 +14176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 104.14 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14192,7 +14193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 108.204 145.542 0)
 			(effects
 				(font
@@ -14201,7 +14202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 109.22 151.765 0)
 			(effects
 				(font
@@ -14212,7 +14213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 104.14 149.86 0)
 			(effects
 				(font
@@ -14222,7 +14223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 104.14 149.86 0)
 			(effects
 				(font
@@ -15886,7 +15887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 50.8 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15904,7 +15905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 55.6514 151.0721 0)
 			(effects
 				(font
@@ -15913,7 +15914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 55.88 151.765 0)
 			(effects
 				(font
@@ -15924,7 +15925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 50.8 149.86 0)
 			(effects
 				(font
@@ -15934,7 +15935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 50.8 149.86 0)
 			(effects
 				(font
@@ -16894,7 +16895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 176.53 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16911,7 +16912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NNBT3904"
+		(property "Value" "MMBT3904"
 			(at 179.832 146.304 0)
 			(effects
 				(font
@@ -16920,7 +16921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 181.61 151.765 0)
 			(effects
 				(font
@@ -16931,7 +16932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/2N3904_MMBT3904_PZT3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 176.53 149.86 0)
 			(effects
 				(font
@@ -16941,7 +16942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 176.53 149.86 0)
 			(effects
 				(font
