@@ -22,6 +22,8 @@
 #define STS3   3    // Status 3 = Voice ON and Mail Sent
 #define STS3v  4    // Status 3V = Voice ON
 #define STS3m  5    // Status 3M = Mail Sent
+#define STS4   6    // Status 4 = SET SIREN LENGTH
+
 
 // ch defines MIB index is starting from 1
 #define SirenCH01    1
